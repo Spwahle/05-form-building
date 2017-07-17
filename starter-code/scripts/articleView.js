@@ -107,11 +107,7 @@ articleView.create = function() {
   body: $('#article-body').val(),
 });
 
-
-
-
-
-
+$('#articles').append(article).toHTML()
 
 
   // TODO: Use our interface to the Handblebars template to put the article preview into the DOM:
